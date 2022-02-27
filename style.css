@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+/* NAvbar */
+#navbar{
+    background-color: black;
+    opacity: 0.8;
+
+}
+h1{
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+li{
+    padding: 10px;
+    font-size: 25px;
+    
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    border-radius: 30px;
+    border:2px solid white;
+    background-color: rgb(245, 133, 133);
+    color: black;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+/* QUOTES */
+
+.qutoes{
+    background-color: purple;
+    border:solid 2px rgb(24, 133, 223);
+    box-shadow: -1px -3px blueviolet;
+    border-radius: 20px;
+    width:600px;
+    margin: 20px;
+}
+
+#Q{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    
+}
+.qimg{
+    height: 80vh;
+    
+    justify-content: left;
+    margin:auto;
+
+}
+
+.qt{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.author{
+    text-align: right;
+    font-size: 20px;
+    padding-right: 8px;
+    color: white;
+
+}
+.author::before{
+    content: '\2014\0020';
+}
+
+/* About */
+#about{
+    background-color:black ;
+    background: url(abtbg.jpg) no-repeat center center/cover ;
+}
+.head{
+    text-align: center;
+    margin: 0px;
+    color: rgb(255, 146, 146);
+}
+.text{
+    width:1000px;
+    padding: 15px;
+    margin:10px;
+    border: 3px solid rgb(229, 140, 252);
+    border-radius: 30px;
+    box-shadow: 2px 3px grey;
+}
+.txt{
+    text-align: left;
+ 
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+}
+
+/* WORK */
+.container{
+    display: flex;
+    background: black;
+}
+.card{
+    padding:23px 12px;
+    margin:23px 12px;
+    /* border:2px solid red;  */
+    background-color: purple;
+    color: white;
+  box-shadow: 5px 6px 5px pink,8px 9px 5px rgb(241, 6, 45);
+  border-radius: 30px;
+
+}
+.card h2{
+    color: rgb(175, 206, 233);
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+}
+.card p{
+    font-size: 23px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    margin-top: 53px;
+}
+footer a{
+    font-size: 30px;
+    color:rgb(230, 124, 230);
+    padding: 35px;
+    
+}
